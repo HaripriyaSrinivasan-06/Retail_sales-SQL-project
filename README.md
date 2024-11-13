@@ -15,7 +15,7 @@ Table Creation: A table named retail_sales is created to store the sales data. T
 CREATE DATABASE p1_retail_db;
 
 CREATE TABLE retail_sales
-(
+'''(
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
     sale_time TIME,
@@ -27,7 +27,7 @@ CREATE TABLE retail_sales
     price_per_unit FLOAT,	
     cogs FLOAT,
     total_sale FLOAT
-);
+);'''
 
 2. Data Exploration & Cleaning
 Record Count: Determine the total number of records in the dataset.
